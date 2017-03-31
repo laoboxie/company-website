@@ -1,0 +1,273 @@
+* {
+	margin:0;
+	padding: 0;
+	font-size: 12px;
+}
+body {
+	background-color: #F5F5F5;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+/*头部*/
+.top {
+	width: 100%;
+	background: url(images/top_bg.jpg) repeat-x;
+}
+.top_content {
+	width: 1000px;
+	height: 27px;
+	margin: 0 auto;
+	line-height: 27px;
+}
+.top_content li {
+	width: 70px;
+	float: right;
+	list-style-image: url(images/arrow.jpg);
+}
+.top_content a:link,.top_content a:visited {
+	color: #8E8E8E;
+	text-decoration: none;
+}
+.top_content a:hover,.top_content a:active {
+	color: #C00;
+	text-decoration: none;
+}
+/*中部 LOGO*/
+.wrap .logo {
+	height: 80px;
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #fff;
+	line-height: 80px;
+	color: #8E8E8E;
+	overflow: hidden;
+}
+.wrap .logo .logo_left {
+	float: left;
+}
+.wrap .logo .logo_right {
+	float: right;
+	margin-right: 20px;
+}
+.wrap .logo .logo_right img {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.wrap .logo .logo_right .tel {
+	font-size: 20px;
+	color: #c00;
+}
+/*中部 菜单*/
+.nav {
+	height: 40px;
+	width: 1000px;
+	background: rgb(119,110,103);
+	border-radius: 4px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+.nav_left,.nav_right{
+    float: left;
+
+}
+.nav_left li {
+	list-style: none;
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+.nav_left li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+.nav_left li a:active,.nav_left li a:hover {
+	color: orange;
+}
+.nav_right {
+	margin-left: 80px;
+	line-height: 40px;
+}
+.nav_right input {
+	height: 25px;
+	width: 200px;
+	/*background: url(images/search.jpg) no-repeat right center;*/
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.nav_right .search_img {
+	float: right;
+	margin-top: 7px;
+	height: 25px;
+	width: 25px;
+	background: url(images/search.jpg) no-repeat right center;
+	background-color: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+/*中部 焦点图*/
+#boxID {
+	width: 1000px;
+	margin: 0 auto;
+}
+/*中部 信息展示*/
+.information {
+	width: 1000px;
+	height: 250px;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.news,.course,.media_ad{
+	float: left;
+	height: 250px;
+}
+.information .news {
+	width: 340px;
+	margin-right: 7px;
+	border: 1px solid #ccc;
+}
+.information .course {
+	width: 410px;
+	margin-right: 7px;
+	border: 1px solid #ccc;
+}
+.information .media_ad {
+	width: 230px;
+}
+.information .media {
+	width: 230px;
+	border: 1px solid #ccc;
+}
+/*中部 新闻中心*/
+.title {
+	height: 35px;
+	width: 100%;
+	border-bottom: 2px solid #ccc;
+	line-height: 35px;
+}
+.title span {
+	float: left;
+	margin-left: 10px;
+}
+.title a {
+	float: right;
+	margin-right: 10px;
+	color: #8E8E8E;
+}
+.news .area {
+	overflow: hidden;
+	height: 212px;
+}
+.news .lists {
+	list-style: none;
+	clear: both;
+	padding-top: 1px;
+	width: 320px;
+	margin: 0 auto;
+}
+.news .lists li {
+	background: url(images/list.jpg) no-repeat left center;
+	padding-left: 10px;
+	border-bottom: 1px solid #ccc;
+	line-height: 30px;
+}
+.news .lists .time {
+	float: right;
+	color: #8E8E8E;
+}
+.news .lists a {
+	color: #000;
+}
+/*中部 课程中心*/
+.course .tab .tab_title {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #ccc;
+	margin: 0 auto;
+}
+.course .tab .tab_title li {
+	float: left;
+	width: 101px;
+	text-align: center;
+	border-right: 1px solid #ccc;
+	cursor: pointer;
+}
+.course .img {
+	margin: 10px;
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+}
+.course .img img {
+	float: left;
+	margin-right: 10px;
+	height: 70px;
+}
+.course h3 {
+	color: #c00;
+}
+.course .img p {
+	padding-top: 3px;
+}
+.course .img p a {
+	color: #c00;
+}
+.course .tab .tab_title .tab_on {
+	border-bottom: 2px solid #c00;
+	width: 103px;
+}
+.course .tab .tab_hide {
+	display: none;
+}
+.course .block {
+	padding-top: 1px;
+}
+/*中部 媒体聚焦*/
+.advise {
+	width: 100%;
+	height: 57px;
+	background: url(images/app.jpg) no-repeat center;
+	border:1px solid #ccc;
+	margin-top: 5px;
+}
+
+
+/*底部 */
+.bottom {
+	width: 100%;
+	height: 200px;
+	margin-top: 10px;
+	background: #e8e8e8;
+	overflow: hidden;
+}
+.bottom .info {
+	width: 1000px;
+	margin: 0 auto;
+}
+.info_title {
+	padding-top: 20px;
+}
+.info_title>li {
+	border-right: 1px solid #ccc;
+	width: 199px;
+	text-align: center;
+	float: left;
+	font-size: 22px;
+	color: #8e8e8e;
+	line-height: 30px;
+	height: 160px;
+}
+.bottom .info_title li ul li {
+	font-size: 15px;
+}
+.info_title li p {
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.info_title li p img {
+	vertical-align: middle;
+}

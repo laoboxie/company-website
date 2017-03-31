@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>企业网站</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="website_js.js"></script>
+	<script type="text/javascript" src="myfocus-2.0.1.min.js"></script><!--引入myFocus库-->
+	
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="top">
+		<div class="top_content">
+			<ul>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">加入收藏</a></li>
+				<li><a href="#">设为首页</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- 中部 -->
+		<!-- logo区域 -->
+	<div class="wrap">
+		<div class="logo">
+			<div class="logo_left"><img src="images/logo.jpg" /></div>
+			<div class="logo_right" id="lala"><img src="images/tel.jpg" width="28" height="28" />24小时热线电话:<span class="tel">123-456-789</span></div>
+		</div>
+	</div>
+		<!-- 菜单区域 -->
+	<div class="nav">
+		<div class="nav_left">
+			<ul>
+				<li><a href="#">首&nbsp&nbsp页</a></li>
+				<li><a href="#">关于慕课</a></li>
+				<li><a href="#">新闻动态</a></li>
+				<li><a href="#">课程中心</a></li>
+				<li><a href="#">在线课程</a></li>
+				<li><a href="#">人才招聘</a></li>
+			</ul>
+		</div>
+		<div class="nav_right">
+			<form action="" method="post">
+            	<input type="text" class="search" />
+            	<span class="search_img"></span>
+            </form>
+		</div>
+	</div>
+		<!-- 焦点图区域 -->
+	<div id="boxID"><!--焦点图盒子-->
+		<div class="loading"><img src="images/loading.gif" alt="请稍候..." /></div><!--载入画面(可删除)-->
+		<div class="pic"><!--内容列表(li数目可随意增减)-->
+		  	<ul>
+		        <li><a href="#"><img src="images/ad2.jpg" thumb="" alt="标题3" text="详细描述3" /></a></li>
+		        <li><a href="#"><img src="images/ad3.jpg" thumb="" alt="标题4" text="详细描述4" /></a></li>
+		        <li><a href="#"><img src="images/ad4.jpg" thumb="" alt="标题5" text="详细描述5" /></a></li>
+		  	</ul>
+  		</div>
+	</div>
+	<!-- 信息展示区域 -->
+	<div class="information">
+		<!-- 新闻中心 -->
+		<div class="news">
+			<div class="title">
+				<span class="title_left">新闻中心</span>
+				<a href="#">more&gt;&gt;</a>
+			</div>
+			<div class="area">
+				<ul class="lists">
+					<li><span class="time">2014-06-01</span><a href="#">【慕客访谈 用户篇】“有为屌丝”在路上</a></li>
+					<li><span class="time">2014-06-01</span><a href="#">【有奖活动】给父亲的三行书信</a></li>
+					<li><span class="time">2014-05-30</span><a href="#">《程序猿，请晒出你的童年》活动获奖公告</a></li>
+					<li><span class="time">2014-05-28</span><a href="#">【实战推荐】衔接如此好的React.js课程</a></li>
+					<li><span class="time">2014-05-28</span><a href="#">【免费好课】SVG实现Tooltip气泡效果</a></li>
+					<li><span class="time">2014-05-28</span><a href="#">【高级进阶】轻松学会Laravel-高级篇</a></li>
+					<li><span class="time">2014-05-28</span><a href="#">【前端入门】前端小白入门系列课程</a></li>
+					<li><span class="time">2014-05-30</span><a href="#">《程序猿，请晒出你的童年》活动获奖公告</a></li>
+					<li><span class="time">2014-05-28</span><a href="#">【实战推荐】衔接如此好的React.js课程</a></li>
+					<li><span class="time">2014-05-28</span><a href="#">【免费好课】SVG实现Tooltip气泡效果</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 课程中心 -->
+		<div class="course">
+			<div class="title">
+				<span class="title_left">课程中心</span>
+				<a href="#">more&gt;&gt;</a>
+			</div>
+			<div class="tab" id="table">
+				<ul class="tab_title">
+					<li class="tab_on">PHP开发</li>
+					<li>前端开发</li>
+					<li>JAVA开发</li>
+					<li>Android开发</li>
+				</ul>
+				<div class="block">
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>PHP开发 PHP开发 PHP开发！</h3>
+							<p>活动时间：2017.1.1</p>
+			          		<p>获奖公布时间：3.1</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>PHP开发 PHP开发 PHP开发！</h3>
+							<p>活动时间：2017.1.2</p>
+			          		<p>获奖公布时间：3.1</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+				</div>
+				<div class="block tab_hide">
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>前端开发 前端开发 前端开发！</h3>
+							<p>活动时间：2017.1.3</p>
+			          		<p>获奖公布时间：5.26</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>前端开发 前端开发 前端开发！</h3>
+							<p>活动时间：2017.1.4</p>
+			          		<p>获奖公布时间：5.26</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+				</div>
+				<div class="block tab_hide">
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>JAVA开发 JAVA开发 JAVA开发！</h3>
+							<p>活动时间：2017.1.5</p>
+			          		<p>获奖公布时间：5.26</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>JAVA开发 JAVA开发 JAVA开发！</h3>
+							<p>活动时间：2017.1.6</p>
+			          		<p>获奖公布时间：5.26</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+				</div>
+				<div class="block tab_hide">
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>Android开发 Android开发 Android开发！</h3>
+							<p>活动时间：2017.1.7</p>
+			          		<p>获奖公布时间：5.26</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+					<div class="img">
+						<img src="images/news.jpg" />
+							<h3>Android开发 Android开发 Android开发！</h3>
+							<p>活动时间：2017.1.8</p>
+			          		<p>获奖公布时间：5.26</p>
+			         		<p><a href="#">Learn More>></a></p>       		
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 媒体中心 -->
+		<div class="media_ad">
+			<div class="media">
+				<div class="title">
+					<span class="title_left">媒体聚焦</span>
+					<a href="#">more&gt;&gt;</a>
+				</div>
+				<div class="video">
+					<embed src="http://player.youku.com/player.php/sid/XNjkzMDE5MTUy/v.swf" allowFullScreen="true" quality="high" width="100%"  align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+				</div>
+			</div>
+			<div class="advise">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 底部 -->
+	<div class="bottom">
+		<div class="info">
+			<ul class="info_title">
+				<li>关于
+					<ul>
+						<li>品牌故事</li>
+						<li>联系我们</li>
+						<li>加入我们</li>
+						<li>版权声明</li>
+					</ul>
+				</li>
+				<li>课程
+					<ul>
+						<li>PHP开发</li>
+						<li>前端开发</li>
+						<li>JAVA开发</li>
+						<li>Android开发</li>
+					</ul>
+				</li>
+				<li>关注
+					<ul>
+						<li>新浪微博</li>
+						<li>腾讯微博</li>
+						<li>企业微信</li>
+						<li>QQ空间</li>
+					</ul>
+				</li>
+				<li>留言
+					<ul>
+						<li>意见反馈</li>
+						<li>问题留言</li>
+						<li>媒体联络</li>
+						<li>在线客服</li>
+					</ul>
+				</li>
+				<li>
+					<p><img src="images/weixin.png">微信关注</p>
+					<p><img src="images/qrcode.jpg"></p>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+
+</body>
+</html>
